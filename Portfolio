@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anita's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-inner">
+        <div>
+          <img
+            src="/Resources/11475205.jpg"
+            alt="Logo"
+            width="32"
+            height="32"
+            style="border-radius: 10%"
+          />
+        </div>
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">Contact</a>
+          <a href="#" class="button">Book a call</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section class="container">
+      <h1>Welcome 🎉</h1>
+      <p>
+        Hi, I'm Anita, a product designer by day and a curious writer by night.
+        I work at Random Solutions, crafting
+        <strong>intuitive user experience</strong>. Here, I share my thoughts on
+        design, engineering, AI, and the random sparks of inspiration that keep
+        me going.
+      </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="section-inner">
+        <h2>Services</h2>
+        <div class="services-grid">
+          <div class="service-item">
+            <div class="service-text">
+              <div class="service-title">UI/UX Design</div>
+              <div class="service-description">
+                Wireframes, Responsive & accessible interfaces, Design systems
+                etc
+              </div>
+            </div>
+            <span class="arrow">⟶</span>
+          </div>
+
+          <div class="service-item">
+            <div class="service-text">
+              <div class="service-title">Web Design</div>
+              <div class="service-description">
+                Marketing sites, landing pages, personal portfolios etc
+              </div>
+            </div>
+            <span class="arrow">⟶</span>
+          </div>
+
+          <div class="service-item">
+            <div class="service-text">
+              <div class="service-title">Design Strategy</div>
+              <div class="service-description">
+                Audits, Competitive research, Brand positioning, User journeys
+                etc
+              </div>
+            </div>
+            <span class="arrow">⟶</span>
+          </div>
+
+          <div class="service-item">
+            <div class="service-text">
+              <div class="service-title">Product Design</div>
+              <div class="service-description">
+                SaaS dashboards, B2B tools, onboarding flows, tokens, widgets
+                etc
+              </div>
+            </div>
+            <span class="arrow">⟶</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="project container">
+      <h2>Selected Work</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="/Resources/image (1).png" alt="Project 1" />
+        </div>
+        <div class="project-card">
+          <img src="/Resources/image (2).png" alt="Project 2" />
+        </div>
+        <div class="project-card">
+          <img src="/Resources/image (3).png" alt="Project 3" />
+        </div>
+        <div class="project-card">
+          <img src="/Resources/image 2.png" alt="Project 4" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Links Section -->
+    <section class="container">
+      <h2>Links</h2>
+      <p>Medium</p>
+      <p>Substack</p>
+      <p>Twitter</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-inner">
+        <nav>
+          <a>From Lagos © 2025 Anita Okafor</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
